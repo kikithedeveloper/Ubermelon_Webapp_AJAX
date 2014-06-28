@@ -1,3 +1,38 @@
+div#cart {
+  width: 200px;
+  border: 1px;
+  border-color: #ccc;
+  padding: 20px;
+  text-align: left;
+  border-radius: 10px;
+  position: absolute;
+  margin-top: 58px;
+  margin-right: 75px;
+  background-color:#f3f3f3;
+  left: 1045px;
+  display: none;
+}
+
+div#blackout-screen {
+  background-color: rgba(64, 64, 64, 0.5);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+div#promotion {
+  width:600px;
+  position: fixed;
+  top: 100px;
+  left: 50%;
+  margin-left: -300px;
+}
+
+div#blackout-screen h1 {
+    color: red;
+}
 
 div.melon-summary img {
     width: 200px;
